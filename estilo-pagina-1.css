@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Righteous&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --cor1:#50D4F2;
+    --cor2:#0D2840;
+    --cor3:#202359;
+    --cor4:#322073;
+    --cor5:#42208C;
+
+    --fonte-padrao:arial, helvetica, sans-serif;
+    --fonte-destaque:"Righteous", sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3), var(--cor4), var(--cor5) );
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header p{
+    color: #ffffff;
+    font-family:var(--fonte-padrao);
+    font-size: 1em;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-shadow:2px 2px 0px rgba(0, 0, 0, 0.479) ;
+}
+
+header > h1{
+    color: white;
+    font-weight: normal;
+    font-family:var(--fonte-destaque) ;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.479);
+}
+
+nav{
+    background-color: var(--cor5);
+    text-align: center;
+    padding: 15px;
+}
+
+nav > a{
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.671);
+    margin-right: 15px;
+    transition-duration: 0.5s;
+    padding: 5px;
+}
+
+nav > a:hover{
+    background-color:#50D4F2;
+    color: #0D2840;
+}
