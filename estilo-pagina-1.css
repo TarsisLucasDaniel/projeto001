@@ -32,7 +32,7 @@ header p{
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     text-shadow:2px 2px 0px rgba(0, 0, 0, 0.479) ;
 }
 
@@ -99,6 +99,18 @@ main strong{
     font-weight: bold;
 }
 
+main img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+
 main p{
     margin: 15px 0px;
     text-align: justify;
@@ -109,7 +121,6 @@ main p{
 
 a.externos:after{
     content: '\1F517';
-
 }
 
 .primeiro-titulo-h1{
@@ -119,6 +130,16 @@ a.externos:after{
 }
 
 .segundo-titulo-h2{
+    font-family: var(--fonte-destaque);
+    color: #0D2840;
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    padding: 8px;
+    border-radius: 10px 10px;
+    text-shadow: 2px 2px 0px rgb(255, 255, 255);
+}
+
+.terceiro-titulo-h2{
     font-family: var(--fonte-destaque);
     color: #0D2840;
     font-size: 1.5em;
