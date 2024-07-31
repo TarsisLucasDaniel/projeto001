@@ -127,6 +127,7 @@ a.externos:after{
     font-family: var(--fonte-titulo);
     font-size: 2em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
+    color: #42208C;
 }
 
 .segundo-titulo-h2{
@@ -147,4 +148,54 @@ a.externos:after{
     padding: 8px;
     border-radius: 10px 10px;
     text-shadow: 2px 2px 0px rgb(255, 255, 255);
+}
+
+div.videos{
+    position: relative;
+    background-color: #50D4F2;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom:58% ;
+}
+
+div.videos > iframe{
+    position: absolute;
+    top:5% ;
+    left:5% ;
+    width:90% ;
+    height: 90%;
+}
+
+.quarto-titulo-h3{
+    font-family: var(--fonte-titulo);
+}
+
+aside{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.274);
+}
+
+aside > ul{
+    list-style-position: inside;
+    list-style-type: '\2714';
+    columns: 2;
+}
+
+aside > h3{
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 0.8em;
 }
