@@ -59,6 +59,7 @@ nav > a{
     margin-right: 15px;
     transition-duration: 0.5s;
     padding: 5px;
+    font-family: var(--fonte-titulo);
 }
 
 nav > a:hover{
@@ -83,6 +84,7 @@ main a{
     font-weight: bold;
     color:rgb(0, 0, 0);
     background-color: #42208c79;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.692);
     padding-left: 6px;
     padding-right: 6px;
     padding-top: 3px;
@@ -90,8 +92,9 @@ main a{
 }
 
 main a:hover{
-    text-decoration: underline;
+    text-shadow: 1px 1px 2px black;
     color: #ffffff;
+    background-color: #42208cc9;
 }
 
 main strong{
@@ -117,6 +120,7 @@ main p{
     text-indent: 25px;
     line-height: 2em;
     font-size: 1.05em;
+    font-family: var(--fonte-padrao);
 }
 
 a.externos:after{
@@ -133,21 +137,25 @@ a.externos:after{
 .segundo-titulo-h2{
     font-family: var(--fonte-destaque);
     color: #0D2840;
-    font-size: 1.5em;
+    font-size: 1.7em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
-    padding: 8px;
-    border-radius: 10px 10px;
-    text-shadow: 2px 2px 0px rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px 5px;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
 }
 
 .terceiro-titulo-h2{
     font-family: var(--fonte-destaque);
     color: #0D2840;
-    font-size: 1.5em;
+    font-size: 1.7em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
-    padding: 8px;
-    border-radius: 10px 10px;
-    text-shadow: 2px 2px 0px rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px 5px;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
 }
 
 div.videos{
@@ -177,6 +185,14 @@ aside{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.274);
 }
 
+#paragrafo-aside{
+    color: #000000;
+    font-size: 1.05em;
+    line-height: 30px;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
 aside > ul{
     list-style-position: inside;
     list-style-type: '\2714';
@@ -184,11 +200,43 @@ aside > ul{
 }
 
 aside > h3{
-    background-color: var(--cor4);
+    background-color:#0e687c;
     color: white;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    font-size: 1.4em;
+}
+
+abbr{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight:normal;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.603);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+abbr:hover{
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #2a788a;
+    padding: 5px;
+    color: white;
+    box-shadow: 1px 1px 2px black;
+    margin-left: 5px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#link-footer{
+    color: white;
+    text-decoration: none;
+}
+
+#link-footer:hover{
+    text-decoration: underline;
 }
 
 footer{
@@ -198,4 +246,6 @@ footer{
     margin-top: 20px;
     padding: 5px;
     font-size: 0.8em;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
 }
