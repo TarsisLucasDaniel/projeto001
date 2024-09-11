@@ -100,9 +100,15 @@ main a:hover{
     padding: 5px;
 }
 
-main strong{
+strong{
     color: #0d2840;
     font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+ strong:hover{
+    color: #00c3ff;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
 
 main img{
@@ -146,6 +152,13 @@ a.externos:after{
     padding-bottom: 10px;
     border-radius: 5px 5px;
     text-shadow: 2px 2px 3px rgb(255, 255, 255);
+    transition-duration: 0.5s;
+}
+
+.segundo-titulo-h2:hover{
+    background-color: #40a8c0;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px black;
 }
 
 .terceiro-titulo-h2{
@@ -158,6 +171,13 @@ a.externos:after{
     padding-bottom: 10px;
     border-radius: 5px 5px;
     text-shadow: 2px 2px 3px rgb(255, 255, 255);
+    transition-duration: 0.5s;
+}
+
+.terceiro-titulo-h2:hover{
+    background-color: #40a8c0;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px black;
 }
 
 div.videos{
@@ -166,6 +186,12 @@ div.videos{
     margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom:58% ;
+    transition-duration: 0.4s;
+}
+
+div.videos:hover{
+    background-color: #50d4f28c;
+    
 }
 
 div.videos > iframe{
@@ -197,7 +223,7 @@ aside{
 aside > ul{
     list-style-position: inside;
     list-style-type: '\2714';
-    columns: 2;
+    columns: 3;
     margin-right: -30px;
     margin-top: 40px;
 }
@@ -221,6 +247,7 @@ abbr{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.603);
     text-shadow: 1px 1px 1px rgb(255, 255, 255);
     line-height: 35px;
+    transition-duration: 0.5s;
 }
 
 abbr:hover{
@@ -232,8 +259,7 @@ abbr:hover{
     box-shadow: 1px 1px 2px black;
     margin-left: 5px;
     text-shadow: 1px 1px 2px black;
-    transition-duration: 0.6s;
-}
+} 
 
 #link-footer{
     color: rgb(255, 255, 255);
@@ -290,7 +316,8 @@ caption{
     padding-top: 10px;
     padding-bottom: 10px;
     border: 1px solid  rgb(102, 102, 102);
-    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.26);
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.26); 
+    margin-top: 20px;
 }
 
 thead{
@@ -378,4 +405,16 @@ tbody tr:nth-child(even){
 
 tbody tr:nth-child(odd){
     background-color:#9292924d;
+}
+
+#fundo-tabela{
+    background-color: #50d4f271;
+    max-width: 1400px;
+    min-width: 300px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.274);
 }
