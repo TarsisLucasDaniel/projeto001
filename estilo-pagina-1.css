@@ -411,8 +411,6 @@ tbody tr:nth-child(odd){
 
 #fundo-tabela{
     background-color: #50d4f271;
-    max-width: 1400px;
-    min-width: 300px;
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
