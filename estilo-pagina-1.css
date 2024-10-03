@@ -226,7 +226,6 @@ aside > ul{
     list-style-position: inside;
     list-style-type: '\2714';
     columns: 3;
-    margin-right: -30px;
     margin-top: 40px;
 }
 
@@ -244,11 +243,10 @@ aside > h3{
 
 abbr{
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight:normal;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.603);
     text-shadow: 1px 1px 1px rgb(255, 255, 255);
-    line-height: 35px;
+    line-height: 30px;
     transition-duration: 0.5s;
 }
 
