@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Righteous&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Righteous&display=swap');
+@import url(fonts.css);
 
 *{
     margin: 0%;
@@ -23,26 +23,26 @@ header{
     padding-top: 40px;
 }
 
+header > h1{
+    color: white;
+    font-weight: normal;
+    font-family:var(--fonte-destaque) ;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.479);
+    letter-spacing: 2px;
+}
+
 header p{
     color: #ffffff;
     font-family:var(--fonte-padrao);
-    font-size: 1em;
+    font-size: 16px;
     max-width: 600px;
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
     padding-bottom: 20px;
     text-shadow:2px 2px 0px rgba(0, 0, 0, 0.479) ;
-}
-
-header > h1{
-    color: white;
-    font-weight: normal;
-    font-family:var(--fonte-destaque) ;
-    font-size: 2.3em;
-    margin-bottom: 15px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.479);
-    letter-spacing: 2px;
 }
 
 nav{
@@ -53,13 +53,13 @@ nav{
 
 nav > a{
     font-weight: normal;
+    font-family: var(--fonte-destaque);
     border-radius: 5px;
     text-decoration: none;
+    transition-duration: 0.5s;
     color: rgba(255, 255, 255, 0.671);
     margin-right: 15px;
-    transition-duration: 0.5s;
     padding: 5px;
-    font-family: var(--fonte-destaque);
     letter-spacing: 2px;
 }
 
@@ -75,7 +75,7 @@ main{
     max-width: 1100px;
     margin-bottom: 30px;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
@@ -95,21 +95,14 @@ main a{
 
 main a:hover{
     transition-duration: 0.5s;
-    text-shadow: 1px 1px 2px black;
     color: #ffffff;
     background-color: #42208cc9;
-    padding: 5px;
 }
 
 strong{
     color: #0d2840;
     font-weight: bold;
     transition-duration: 0.3s;
-}
-
- strong:hover{
-    color: #00c3ff;
-    text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
 
 main img{
@@ -138,8 +131,8 @@ a.externos:after{
 
 .primeiro-titulo-h1{
     font-family: var(--fonte-titulo);
-    font-size: 2em;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
+    font-size: 1.5em;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.425);
     color: #42208C;
 }
 
