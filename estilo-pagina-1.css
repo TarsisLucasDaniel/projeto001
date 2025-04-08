@@ -37,7 +37,6 @@ header p{
     color: #ffffff;
     font-family:var(--fonte-padrao);
     font-size: 16px;
-    max-width: 600px;
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
@@ -66,8 +65,6 @@ nav > a{
 nav > a:hover{
     background-color:#50D4F2;
     color: #0D2840;
-    letter-spacing: 3px;
-    font-weight: bold;
 }
 
 main{
@@ -130,16 +127,19 @@ a.externos:after{
 }
 
 .primeiro-titulo-h1{
-    font-family: var(--fonte-titulo);
+    font-family: var(--fonte-padrao);
     font-size: 1.5em;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.425);
-    color: #42208C;
+    background-image: linear-gradient(to right, #42208C, transparent);
+    border-radius: 10px;
+    padding: 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px black;
 }
 
 .segundo-titulo-h2{
     font-family: var(--fonte-destaque);
     color: #0D2840;
-    font-size: 1.7em;
+    font-size: 1.5em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     padding-left: 15px;
     padding-top: 10px;
@@ -147,18 +147,12 @@ a.externos:after{
     border-radius: 5px 5px;
     text-shadow: 2px 2px 3px rgb(255, 255, 255);
     transition-duration: 0.5s;
-}
-
-.segundo-titulo-h2:hover{
-    background-color: #40a8c0;
-    letter-spacing: 5px;
-    text-shadow: 1px 1px 1px black;
 }
 
 .terceiro-titulo-h2{
     font-family: var(--fonte-destaque);
     color: #0D2840;
-    font-size: 1.7em;
+    font-size: 1.5em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     padding-left: 15px;
     padding-top: 10px;
@@ -166,12 +160,6 @@ a.externos:after{
     border-radius: 5px 5px;
     text-shadow: 2px 2px 3px rgb(255, 255, 255);
     transition-duration: 0.5s;
-}
-
-.terceiro-titulo-h2:hover{
-    background-color: #40a8c0;
-    letter-spacing: 5px;
-    text-shadow: 1px 1px 1px black;
 }
 
 div.videos{
@@ -185,7 +173,6 @@ div.videos{
 
 div.videos:hover{
     background-color: #50d4f28c;
-    
 }
 
 div.videos > iframe{
@@ -194,10 +181,6 @@ div.videos > iframe{
     left:5% ;
     width:90% ;
     height: 90%;
-}
-
-.quarto-titulo-h3{
-    font-family: var(--fonte-titulo);
 }
 
 aside{
@@ -230,7 +213,9 @@ aside > h3{
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
-    font-size: 1.8em;
+    font-family: var(--fonte-titulo);
+    font-size: 1.5em;
+    text-align: left;
 }
 
 abbr{
@@ -243,14 +228,8 @@ abbr{
 }
 
 abbr:hover{
-    font-weight: bold;
-    border-radius: 5px;
-    background-color: #2a788a;
-    padding: 5px;
     color: white;
-    box-shadow: 1px 1px 2px black;
-    margin-left: 5px;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 1px black;
 } 
 
 #link-footer{
